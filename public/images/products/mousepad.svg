@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+      <defs>
+        <linearGradient id="neonGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#3b82f6" />
+          <stop offset="50%" stop-color="#8b5cf6" />
+          <stop offset="100%" stop-color="#ec4899" />
+        </linearGradient>
+        <filter id="padGlow" x="-10%" y="-10%" width="120%" height="120%">
+          <feGaussianBlur stdDeviation="3" result="blur"/>
+          <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+        </filter>
+      </defs>
+      <rect width="200" height="200" rx="24" fill="#f8fafc"/>
+      <g filter="drop-shadow(0 6px 12px rgba(15,23,42,0.12))">
+        <!-- The Desk Pad -->
+        <rect x="25" y="55" width="150" height="90" rx="10" fill="#1e293b"/>
+        <!-- Stitched borders -->
+        <rect x="28" y="58" width="144" height="84" rx="8" fill="none" stroke="url(#neonGlow)" stroke-width="2" filter="url(#padGlow)"/>
+        <!-- Pattern mesh lines -->
+        <path d="M40 90 L80 130" stroke="#334155" stroke-width="1" stroke-linecap="round"/>
+        <path d="M50 80 L100 130" stroke="#334155" stroke-width="1" stroke-linecap="round"/>
+        <path d="M60 70 L120 130" stroke="#334155" stroke-width="1" stroke-linecap="round"/>
+        <!-- Tech grid accents -->
+        <circle cx="150" cy="75" r="2" fill="#3b82f6"/>
+        <circle cx="158" cy="75" r="2" fill="#ec4899"/>
+      </g>
+    </svg>

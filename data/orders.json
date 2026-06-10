@@ -1,0 +1,48 @@
+[
+  {
+    "id": "ORD56433",
+    "date": "1 June 2026 at 11:43 am",
+    "customer": {
+      "name": "Jane Student",
+      "email": "student@example.com",
+      "address": "hyd",
+      "phone": "9876543210"
+    },
+    "items": [
+      {
+        "id": "prod-02",
+        "name": "Mechanical Keyboard",
+        "price": 2499,
+        "image": "/images/products/keyboard.svg",
+        "category": "Peripherals",
+        "quantity": 1
+      }
+    ],
+    "total": 2949,
+    "paymentMethod": "Cash On Delivery",
+    "status": "Delivered"
+  },
+  {
+    "id": "ORD60987",
+    "date": "30 May 2026 at 08:21 pm",
+    "customer": {
+      "name": "Jane Student",
+      "email": "student@example.com",
+      "address": "wgl",
+      "phone": "9550181109"
+    },
+    "items": [
+      {
+        "id": "prod-02",
+        "name": "Mechanical Keyboard",
+        "price": 2499,
+        "image": "/images/products/keyboard.svg",
+        "category": "Peripherals",
+        "quantity": 1
+      }
+    ],
+    "total": 2949,
+    "paymentMethod": "UPI",
+    "status": "Delivered"
+  }
+]

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Tech Products - CodeAlpha Store</title>
+  <meta name="description" content="Browse our complete list of 15 premium mechanical keyboards, gaming mice, audio devices and office riser accessories with simple sorting.">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <!-- Dynamic Global Navbar Injection Placeholder -->
+  <header id="navbar-placeholder"></header>
+
+  <main class="container section">
+    <div style="margin-bottom: 2rem;">
+      <h1 style="font-size: 2.5rem; font-weight:800; letter-spacing:-0.5px;">Explore All Gear</h1>
+      <p style="color:var(--text-muted);">Use the filters below to refine your perfect workspace equipment.</p>
+    </div>
+
+    <!-- Search box input -->
+    <div class="search-box-wrapper">
+      <span class="search-icon-inline">🔍</span>
+      <input type="text" id="catalog-search" class="search-input" placeholder="Search devices by name or description...">
+    </div>
+
+    <!-- Main side layouts split: Sidebar Left, Catalogue Grid Right -->
+    <div class="catalog-layout">
+      
+      <!-- Side Category Filter panel -->
+      <aside class="filter-sidebar">
+        <h3 class="filter-title">Filter By Category</h3>
+        <div class="filter-group">
+          <div class="category-filter-list">
+            <button class="category-btn active" data-category="All">All Categories</button>
+            <button class="category-btn" data-category="Peripherals">Peripherals</button>
+            <button class="category-btn" data-category="Audio">Audio</button>
+            <button class="category-btn" data-category="Wearables">Wearables</button>
+            <button class="category-btn" data-category="Storage">Storage</button>
+            <button class="category-btn" data-category="Office">Office</button>
+            <button class="category-btn" data-category="Accessories">Accessories</button>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Grid Catalog listing (Dynamic) -->
+      <section id="catalog-products-grid" class="products-grid">
+        <div style="grid-column: 1/-1; text-align:center;"><div class="spinner" style="margin:4rem auto;"></div></div>
+      </section>
+      
+    </div>
+  </main>
+
+  <!-- Dynamic Global Footer Injection Placeholder -->
+  <footer id="footer-placeholder"></footer>
+
+  <!-- Scripts -->
+  <script src="../js/common.js"></script>
+  <script src="../js/products.js"></script>
+</body>
+</html>

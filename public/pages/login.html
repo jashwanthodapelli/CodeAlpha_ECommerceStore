@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - CodeAlpha Store</title>
+  <meta name="description" content="Access your CodeAlpha internship showcase demo account to purchase devices and track receipts logs.">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <!-- Dynamic Global Navbar Injection Placeholder -->
+  <header id="navbar-placeholder"></header>
+
+  <main class="auth-page-container">
+    <div class="auth-card">
+      <div class="auth-header">
+        <h1 class="auth-title">Welcome Back</h1>
+        <p class="auth-subtitle">Log in to complete orders and view history</p>
+      </div>
+
+      <!-- Demo Credentials Notification Box -->
+      <div class="demo-credentials-box">
+        <p>💡 <strong>Demo Account Credentials</strong></p>
+        <p style="margin-top:0.25rem;">Email: <code>student@example.com</code></p>
+        <p>Password: <code>student123</code></p>
+        <button id="autofill-demo-btn" class="demo-autofill-btn">⚡ Auto-fill Demo Account</button>
+      </div>
+
+      <form id="login-form">
+        <div class="form-group">
+          <label for="login-email" class="form-label">Email Address</label>
+          <input type="email" id="login-email" class="form-input" placeholder="e.g. student@example.com" required>
+        </div>
+        <div class="form-group" style="margin-bottom:2rem;">
+          <label for="login-password" class="form-label">Password</label>
+          <input type="password" id="login-password" class="form-input" placeholder="••••••••" required>
+        </div>
+        <button type="submit" class="btn-primary" style="width: 100%; padding:0.75rem; font-size:1.05rem;">
+          Log In Securely
+        </button>
+      </form>
+
+      <div class="auth-redirect-link">
+        Don't have an account? <a href="register.html">Register here</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Dynamic Global Footer Injection Placeholder -->
+  <footer id="footer-placeholder"></footer>
+
+  <!-- Scripts -->
+  <script src="../js/common.js"></script>
+  <script src="../js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "prod-01",
+    "name": "Wireless Mouse",
+    "category": "Peripherals",
+    "description": "Ergonomic 2.4GHz wireless optical mouse with adjustable DPI settings (800/1200/1600), silent clicks, and an ultra-durable build. Perfect for home, office, and travel.",
+    "image": "/images/products/mouse.svg",
+    "price": 699
+  },
+  {
+    "id": "prod-02",
+    "name": "Mechanical Keyboard",
+    "category": "Peripherals",
+    "description": "Tactile blue-switch mechanical gaming keyboard with stunning RGB backlit effects, full anti-ghosting keys, and an aluminum frame for absolute typing comfort.",
+    "image": "/images/products/keyboard.svg",
+    "price": 2499
+  },
+  {
+    "id": "prod-03",
+    "name": "Bluetooth Speaker",
+    "category": "Audio",
+    "description": "Portable wireless speaker featuring deep bass, crisp high notes, IPX7 waterproof rating, and a 12-hour continuous battery life to keep your music going anywhere.",
+    "image": "/images/products/speaker.svg",
+    "price": 1299
+  },
+  {
+    "id": "prod-04",
+    "name": "USB-C Hub",
+    "category": "Accessories",
+    "description": "Multiport adapter sporting a 4K HDMI video output, 3 USB 3.0 ports, SD/MicroSD card readers, and 100W Power Delivery. Perfect expansion for modern ultrabooks.",
+    "image": "/images/products/hub.svg",
+    "price": 899
+  },
+  {
+    "id": "prod-05",
+    "name": "Laptop Stand",
+    "category": "Office",
+    "description": "Adjustable aluminum laptop riser with ergonomic design. Six height levels improve posture and facilitate cooling, supporting all laptops up to 15.6 inches.",
+    "image": "/images/products/stand.svg",
+    "price": 799
+  },
+  {
+    "id": "prod-06",
+    "name": "Smart Watch",
+    "category": "Wearables",
+    "description": "Premium health tracker featuring real-time heart monitoring, custom fitness modes, sleep analyzer, notifications, and a full-touch vibrant HD display screen.",
+    "image": "/images/products/watch.svg",
+    "price": 2999
+  },
+  {
+    "id": "prod-07",
+    "name": "Headphones",
+    "category": "Audio",
+    "description": "Over-ear active noise cancelling headphones with rich hi-fi sound, memory foam cushion earcups, and a wireless battery runtime extending past 30 hours.",
+    "image": "/images/products/headphones.svg",
+    "price": 1999
+  },
+  {
+    "id": "prod-08",
+    "name": "Power Bank",
+    "category": "Accessories",
+    "description": "20000mAh high-capacity external battery pack with dual USB quick-charging outputs and intelligent safety protections against short circuits and surges.",
+    "image": "/images/products/powerbank.svg",
+    "price": 1499
+  },
+  {
+    "id": "prod-09",
+    "name": "Gaming Mouse Pad",
+    "category": "Accessories",
+    "description": "Extended large desk mousepad featuring stitched anti-fray borders, water-resistant micro-woven top cloth surface, and non-slip rubberized grip bottom.",
+    "image": "/images/products/mousepad.svg",
+    "price": 499
+  },
+  {
+    "id": "prod-10",
+    "name": "Webcam",
+    "category": "Peripherals",
+    "description": "Full HD 1080p desktop camera with auto light correction, dual stereo noise-reducing microphones, and a broad wide-angle focus lens for webinars and streaming.",
+    "image": "/images/products/webcam.svg",
+    "price": 1799
+  },
+  {
+    "id": "prod-11",
+    "name": "SSD 512GB",
+    "category": "Storage",
+    "description": "Ultra-fast NVMe M.2 PCIe internal solid-state drive. Delivers read speeds up to 3500MB/s for blistering load velocities and professional workflow enhancements.",
+    "image": "/images/products/ssd.svg",
+    "price": 3499
+  },
+  {
+    "id": "prod-12",
+    "name": "Monitor 24-inch",
+    "category": "Peripherals",
+    "description": "Borderless IPS desktop display panel with full HD 1920x1080 resolution, fluid 75Hz refresh speed, blue light reduction filter, and versatile HDMI/VGA connections.",
+    "image": "/images/products/monitor.svg",
+    "price": 8999
+  },
+  {
+    "id": "prod-13",
+    "name": "Portable Hard Drive",
+    "category": "Storage",
+    "description": "2TB compact external mobile hard drive offering high-speed USB 3.0 interfaces, quick plug-and-play capability, and resilient drop shock-resistant casing.",
+    "image": "/images/products/harddrive.svg",
+    "price": 4299
+  },
+  {
+    "id": "prod-14",
+    "name": "Wireless Earbuds",
+    "category": "Audio",
+    "description": "True wireless stereo earbuds supporting Bluetooth 5.3, instantaneous auto-pairing, sweatproof resistance, and an elegant pocket-sized LED battery case.",
+    "image": "/images/products/earbuds.svg",
+    "price": 2199
+  },
+  {
+    "id": "prod-15",
+    "name": "Office Chair",
+    "category": "Office",
+    "description": "Premium ergonomic high-back mesh office desk seat featuring breathable lumbar alignment adjustments, padded 3D armrests, and dynamic height hydraulic tilt.",
+    "image": "/images/products/chair.svg",
+    "price": 5999
+  }
+]

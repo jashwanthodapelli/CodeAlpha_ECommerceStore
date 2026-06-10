@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+      <rect width="200" height="200" rx="24" fill="#f8fafc"/>
+      <g filter="drop-shadow(0 10px 15px rgba(71,85,105,0.15))">
+        <!-- Isometric stand design -->
+        <path d="M40 130 L100 80 L160 130" stroke="#475569" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+        <path d="M40 130 L100 80 L160 130" stroke="#94a3b8" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+        <!-- Riser pillars -->
+        <path d="M100 80 V50" stroke="#64748b" stroke-width="10" stroke-linecap="round"/>
+        <path d="M60 113 L60 83" stroke="#64748b" stroke-width="10" stroke-linecap="round"/>
+        <path d="M140 113 L140 83" stroke="#64748b" stroke-width="10" stroke-linecap="round"/>
+        <!-- Supporting platforms -->
+        <polygon points="40,55 160,55 140,83 60,83" fill="#1e293b"/>
+        <polygon points="43,58 157,58 138,80 62,80" fill="#3b82f6" opacity="0.9"/>
+        <!-- Soft anti-slip rubber pads -->
+        <rect x="50" y="58" width="20" height="4" fill="#0f172a"/>
+        <rect x="130" y="58" width="20" height="4" fill="#0f172a"/>
+      </g>
+    </svg>

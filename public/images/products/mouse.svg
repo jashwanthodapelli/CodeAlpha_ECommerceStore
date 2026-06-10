@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+      <defs>
+        <linearGradient id="mouseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#3b82f6" />
+          <stop offset="100%" stop-color="#1d4ed8" />
+        </linearGradient>
+        <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#60a5fa" />
+          <stop offset="100%" stop-color="#3b82f6" />
+        </linearGradient>
+        <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+          <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#1e293b" flood-opacity="0.15" />
+        </filter>
+      </defs>
+      <rect width="200" height="200" rx="24" fill="#f8fafc"/>
+      <ellipse cx="100" cy="115" rx="45" ry="60" fill="url(#mouseGrad)" filter="url(#shadow)"/>
+      <path d="M100 55 C110 55, 140 75, 140 115 C140 145, 120 175, 100 175 C80 175, 60 145, 60 115 C60 75, 90 55, 100 55 Z" fill="none" stroke="#2563eb" stroke-width="2"/>
+      <path d="M100 55 V110" stroke="#f8fafc" stroke-width="2" stroke-linecap="round"/>
+      <path d="M62 110 H138" stroke="#f8fafc" stroke-dasharray="4 4" stroke-opacity="0.5"/>
+      <rect x="94" y="70" width="12" height="24" rx="6" fill="#f8fafc" filter="url(#shadow)"/>
+      <circle cx="100" cy="82" r="3" fill="#3b82f6"/>
+      <path d="M80 160 C90 168, 110 168, 120 160" stroke="url(#accentGrad)" stroke-width="4" stroke-linecap="round" fill="none"/>
+    </svg>

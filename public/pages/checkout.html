@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Secure Checkout - CodeAlpha Store</title>
+  <meta name="description" content="Securely complete your tech gadgets setup order, select payment methods, and get your invoice receipt.">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <!-- Dynamic Global Navbar Injection Placeholder -->
+  <header id="navbar-placeholder"></header>
+
+  <main class="container section">
+    <div style="margin-bottom: 2rem;">
+      <h1 style="font-size: 2.5rem; font-weight:800; letter-spacing:-0.5px;">Secure Checkout</h1>
+      <p style="color:var(--text-muted);">Please review your order summary and fill in shipping coordinates below.</p>
+    </div>
+
+    <!-- Main checkout grids layout split -->
+    <div class="checkout-grid">
+      
+      <!-- Left column: Billing Address Coordinates form -->
+      <div class="billing-form-panel">
+        <h2 style="font-size:1.5rem; margin-bottom:1.5rem; border-bottom:1px solid var(--border-color); padding-bottom:0.5rem; color:var(--secondary);">
+          1. Shipping Information
+        </h2>
+        <form id="checkout-form">
+          <div class="form-group">
+            <label for="checkout-name" class="form-label">Recipient's Full Name</label>
+            <input type="text" id="checkout-name" class="form-input" placeholder="e.g. Jane Student" required>
+          </div>
+          <div class="form-group">
+            <label for="checkout-email" class="form-label">Email Address (Order Invoices)</label>
+            <input type="email" id="checkout-email" class="form-input" placeholder="e.g. student@example.com" required>
+          </div>
+          <div class="form-group">
+            <label for="checkout-address" class="form-label">Delivery Address</label>
+            <textarea id="checkout-address" class="form-input" style="height: 100px; resize: none;" placeholder="Provide complete house/flat details and street address..." required></textarea>
+          </div>
+          <div class="form-group" style="margin-bottom:2rem;">
+            <label for="checkout-phone" class="form-label">Contact Phone Number</label>
+            <input type="tel" id="checkout-phone" class="form-input" placeholder="e.g. +91 9876543210" required>
+          </div>
+
+          <h2 style="font-size:1.5rem; margin-bottom:1.5rem; border-bottom:1px solid var(--border-color); padding-bottom:0.5rem; color:var(--secondary);">
+            2. Payment Method
+          </h2>
+          <div class="form-group" style="margin-bottom:2.5rem;">
+            <label for="checkout-payment" class="form-label">Select Payment Channel</label>
+            <select id="checkout-payment" class="form-input" required>
+              <option value="" disabled selected>-- Choose Payment Option --</option>
+              <option value="UPI">UPI Payment (GPay/PhonePe)</option>
+              <option value="Credit Card">Credit Card</option>
+              <option value="Debit Card">Debit Card</option>
+              <option value="Cash On Delivery">Cash On Delivery (COD)</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn-primary" style="width: 100%; font-size:1.2rem; padding:0.875rem;">
+            🔒 Confirm & Place Order
+          </button>
+        </form>
+      </div>
+
+      <!-- Right column: Summary sidebar -->
+      <div class="summary-panel" style="top:7rem;">
+        <h3 class="summary-title">Summary Breakdown</h3>
+        <div id="checkout-items-summary" style="margin-bottom:1rem; border-bottom:1px solid var(--border-color); padding-bottom:1rem;">
+          <!-- Loaded dynamically -->
+        </div>
+        <div class="summary-row total-row">
+          <span>Amount Payable</span>
+          <span id="checkout-total-price">₹0</span>
+        </div>
+        <div style="margin-top:1.5rem; font-size:0.8rem; color:var(--text-muted); text-align:center;">
+          🔒 Secured 256-bit Student Simulation Sandbox Transaction.
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- SUCCESS OVERLAY MODAL (Order placed successfully popup) -->
+  <div class="modal-overlay" id="success-modal-overlay">
+    <div class="success-modal">
+      <div class="success-badge">✅</div>
+      <h2 class="order-placed-title">Order Placed Successfully</h2>
+      <p class="order-placed-desc">Thank you for your purchase! Your setup equipment order is processed successfully.</p>
+      
+      <p style="margin-bottom:0.5rem; color:var(--text-muted); font-size:0.875rem; font-weight:600;">Transaction Receipt Code:</p>
+      <div class="order-number-badge" id="success-order-id">ORD10254</div>
+      
+      <button onclick="closeSuccessModalAndRedirect()" class="btn-primary" style="width:100%; display:block;">
+        View Orders History
+      </button>
+    </div>
+  </div>
+
+  <!-- Dynamic Global Footer Injection Placeholder -->
+  <footer id="footer-placeholder"></footer>
+
+  <!-- Scripts -->
+  <script src="../js/common.js"></script>
+  <script src="../js/checkout.js"></script>
+</body>
+</html>

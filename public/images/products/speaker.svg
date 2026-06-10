@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+      <defs>
+        <linearGradient id="spkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#3b82f6" />
+          <stop offset="100%" stop-color="#1d4ed8" />
+        </linearGradient>
+      </defs>
+      <rect width="200" height="200" rx="24" fill="#f8fafc"/>
+      <g filter="drop-shadow(0 8px 12px rgba(37,99,235,0.2))">
+        <!-- Main body -->
+        <rect x="65" y="40" width="70" height="120" rx="35" fill="url(#spkGrad)"/>
+        <!-- Speaker mesh pattern -->
+        <rect x="70" y="55" width="60" height="90" rx="30" fill="#1e293b" opacity="0.85"/>
+        <!-- Decorative sound waves -->
+        <path d="M45 80 C35 90, 35 110, 45 120" stroke="#3b82f6" stroke-width="3" stroke-linecap="round" fill="none"/>
+        <path d="M35 70 C20 85, 20 115, 35 130" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6"/>
+        <path d="M155 80 C165 90, 165 110, 155 120" stroke="#3b82f6" stroke-width="3" stroke-linecap="round" fill="none"/>
+        <path d="M165 70 C180 85, 180 115, 165 130" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6"/>
+        <!-- Controls -->
+        <circle cx="100" cy="50" r="3" fill="#f8fafc"/>
+        <circle cx="90" cy="50" r="2" fill="#94a3b8"/>
+        <circle cx="110" cy="50" r="2" fill="#94a3b8"/>
+        <path d="M92 145 H108" stroke="#3b82f6" stroke-width="3" stroke-linecap="round"/>
+      </g>
+    </svg>

@@ -1,0 +1,9 @@
+[
+  {
+    "id": "u-01",
+    "name": "Jane Student",
+    "email": "student@example.com",
+    "password": "student123",
+    "createdAt": "2026-05-30T19:48:05Z"
+  }
+]
